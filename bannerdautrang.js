@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://www.phanphoiphukien.vn/' target='_blank'><img src='http://cdn-img-v1.webbnc.net/upload/web/50/509140/slide/2017/02/09/06/20/148662121659.jpg' width='500px'/><br/>13 Cung cấp phụ kiện điện thoại giá sỉ</a>. Phụ Kiện Điện Thoại PHA LÊ bán lẻ giá sỉ. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://www.phanphoiphukien.vn/' target='_blank'><img src='http://cdn-img-v1.webbnc.net/upload/web/50/509140/slide/2017/02/09/06/20/148662121659.jpg' width='500px'/><br/></a>. Phụ Kiện Điện Thoại PHA LÊ bán lẻ giá sỉ. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
